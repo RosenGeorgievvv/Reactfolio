@@ -1,4 +1,8 @@
 import React from 'react'
+import '../styles/Home.css'
+import EmailIcon from '@mui/icons-material/Email';
+import GithubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function Home() {
   return (
@@ -7,8 +11,11 @@ function Home() {
         <h2>Hi, My name is Rosen</h2>
         <div className='prompt'>
           <p>
-            A software developer with a passion for learning and creating.
+            A software developer with a passion for learning and creating
           </p>
+          <LinkedInIcon />
+          <EmailIcon />
+          <GithubIcon />
         </div>
       </div>
       <div className='skills'>
