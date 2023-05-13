@@ -7,21 +7,18 @@ export const ProjectList = [
     {
       name: "React Calculator",
       image: calc,
-      skills: "JavaScript,HTML,CSS",
+      href: "https://github.com/RosenGeorgievvv/react-calculator"
     },
     {
       name: "Expenses Tracker",
       image: expensesTracker,
-      skills: "React,Node.js,MongoDB",
     },
     {
       name: "Movie Land",
       image: movieland,
-      skills: "React,Node.js,MongoDB,SpotifyAPI",
     },
     {
       name: "To Do List",
       image: todolist,
-      skills: "React,Node.js,MySQL,GraphQL",
     }
   ];

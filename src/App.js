@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import ProjectDisplay from './pages/ProjectDisplay';
-import Experience from './pages/Experience';
+import About from './pages/About';
 import Footer from './components/Footer';
 import Error from './components/Error';
 
@@ -17,7 +17,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/projects' element={<Projects />} />
           <Route path="/project/:id" element={<ProjectDisplay />} />
-          <Route path='/experience' element={<Experience />} />
+          <Route path='/about' element={<About />} />
           <Route path='*' element={<Error />} />
         </Routes>
         <Footer />
