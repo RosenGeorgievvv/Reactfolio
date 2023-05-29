@@ -1,7 +1,8 @@
 import calc from "../assets/calc.jpg";
 import expensesTracker from "../assets/expensesTracker.JPG"
 import movieland from "../assets/movieland.png";
-import todolist from "../assets/todolist.webp"
+import todolist from "../assets/todolist.webp";
+import pizza from '../assets/pizza.png'
 
 export const ProjectList = [
     {
@@ -26,7 +27,7 @@ export const ProjectList = [
     },
     {
       name: "Food&Faste",
-      image: todolist,
-      href: "https://github.com/RosenGeorgievvv/to-do-list"
+      image: pizza,
+      href: "https://github.com/RosenGeorgievvv/food-website"
     }
   ];
