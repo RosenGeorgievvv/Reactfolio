@@ -12,13 +12,21 @@ export const ProjectList = [
     {
       name: "Expenses Tracker",
       image: expensesTracker,
+      href: "https://github.com/RosenGeorgievvv/expense-tracker"
     },
     {
       name: "Movie Land",
       image: movieland,
+      href: "https://github.com/RosenGeorgievvv/movie-land"
     },
     {
       name: "To Do List",
       image: todolist,
+      href: "https://github.com/RosenGeorgievvv/to-do-list"
+    },
+    {
+      name: "Food&Faste",
+      image: todolist,
+      href: "https://github.com/RosenGeorgievvv/to-do-list"
     }
   ];
